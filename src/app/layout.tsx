@@ -27,6 +27,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC087DFe7YereRkKUwqUIXnQrMUf_1yA7M&libraries=places"></script>
       </body>
     </html>
   );
